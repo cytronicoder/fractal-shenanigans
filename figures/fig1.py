@@ -137,6 +137,6 @@ fig.suptitle("Fig. 1 — Koch snowflake: A classic fractal", fontsize=18, y=0.98
 
 fig.tight_layout()
 
-os.makedirs("figures", exist_ok=True)
-plt.savefig("figures/fig1_koch.png", dpi=300, bbox_inches="tight")
+os.makedirs("images", exist_ok=True)
+plt.savefig("images/fig1_koch.png", dpi=300, bbox_inches="tight")
 plt.show()
